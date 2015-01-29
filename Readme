@@ -1,0 +1,41 @@
+Note:
+
+The ZIP contains the following files.They are :
+
+1)crack.c
+2)Makefile
+3)crack
+4)Project Report
+
+linux version:Linux vijay-Dell-System-Inspiron-N4110 3.13.0-39-generic #66-Ubuntu SMP Tue Oct 28 13:30:27 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+
+How to compile the code?
+
+Here are the steps to complile the code
+1)Get the Zip file and extract all its contents
+2)Using terminal go to the extracted files directory
+3)run "make" in terminal
+4)./crack pathname example "./crack /home/vijay/logfiles/log5.wep"
+
+
+Here is compiled results ran in our system.
+
+vijay@vijay-Dell-System-Inspiron-N4110:~/Desktop/Network Security Projects/Crack$ make
+gcc -o crack crack.c
+vijay@vijay-Dell-System-Inspiron-N4110:~/Desktop/Network Security Projects/Crack$ ./crack /home/vijay/logfiles/log1.wep
+enemy
+vijay@vijay-Dell-System-Inspiron-N4110:~/Desktop/Network Security Projects/Crack$ ./crack /home/vijay/logfiles/log2.wep
+point
+vijay@vijay-Dell-System-Inspiron-N4110:~/Desktop/Network Security Projects/Crack$ ./crack /home/vijay/logfiles/log3.wep
+court
+vijay@vijay-Dell-System-Inspiron-N4110:~/Desktop/Network Security Projects/Crack$ ./crack /home/vijay/logfiles/log4.wep
+chief
+vijay@vijay-Dell-System-Inspiron-N4110:~/Desktop/Network Security Projects/Crack$ ./crack /home/vijay/logfiles/log5.wep
+white
+
+Obstacles Faced:
+During initial stages of project we had problem of reading the log files and then we used hexedit to view the logfiles.
+
+
+
+
